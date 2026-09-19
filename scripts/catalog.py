@@ -9,7 +9,7 @@ import re
 import sys
 from urllib.parse import urlparse
 
-from locales import UI, LANGUAGES
+from locales import CHANNELS, UI, LANGUAGES
 
 ROOT = Path(__file__).resolve().parents[1]
 STATUSES = ['readme-reviewed', 'doc-reviewed', 'doc-excerpt-reviewed', 'article-reviewed']
@@ -103,7 +103,12 @@ def output_edition(records, candidates, lang):
     stats = t['counts'].format(total=len(records), projects=counts['project']+counts['sdk'],
                                guides=counts['guide'], articles=counts['article'], candidates=len(candidates))
     nav = ' · '.join(f'[{label}]({path})' for label, path in zip(t['nav'], [start_name, details_name, media_name, 'CONTRIBUTING.md']))
-    text = f"# Awesome Jev Examples\n\n{language_nav('README', lang)}\n\n> {t['tagline']}\n\n{t['intro']}\n\n{nav}\n\n{stats}\n\n{t['notice']}\n\n## {t['featured']}\n\n"
+    text = f"# Awesome Jev Examples\n\n{language_nav('README', lang)}\n\n> {t['tagline']}\n\n{t['intro']}\n\n{nav}\n\n{stats}\n\n{t['notice']}\n\n"
+    channels = CHANNELS[lang]
+    text += f"## {channels['title']}\n\n{channels['intro']}\n\n"
+    for title, summary, url, label in channels['items']:
+        text += f"- **[{title}]({url})** — {summary} [{label}]({url}).\n"
+    text += f"\n{channels['footnote']}\n\n## {t['featured']}\n\n"
     lookup = {r['id']: r for r in records}
     for rid in FEATURED:
         r = lookup[rid]

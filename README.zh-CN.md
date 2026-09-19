@@ -12,6 +12,19 @@
 
 核对表示阅读所标明的来源，不代表运行、审计或效果背书。本仓库尚未复现任何案例。两篇官方页面仅获取了部分正文，已单独标明。作者报告的性能数据未经独立复测。
 
+## Jev 使用渠道
+
+按你的工作方式选择入口。前四项是 TypeSafe 官方入口；OpenRouter 是第三方模型平台，AIJev 是独立社区演示。
+
+- **[Playground](https://console.typesafe.ai/playground)** — 直接在浏览器中同时体验 Choice、Score 和 Noul，无需本地配置。 [打开 Playground](https://console.typesafe.ai/playground).
+- **[HTTP API](https://docs.typesafe.ai/api)** — 向 `POST https://api.typesafe.ai/v1/systemone` 发送 `state`、`model` 和类型化的 `questions`；集成前请核对最新架构。 [API 参考](https://docs.typesafe.ai/api).
+- **[Python SDK](https://docs.typesafe.ai/sdk/python)** — 运行 `pip install typesafe-sdk` 进行同步或异步调用；客户端从环境变量读取 `TYPESAFE_API_KEY`。 [Python SDK 指南](https://docs.typesafe.ai/sdk/python).
+- **[Agent Skill](https://github.com/typesafe-ai/skills)** — 运行 `npx skills add typesafe-ai/skills --skill typesafe-ai`，让编码智能体设计请求、批量处理独立问题并读取类型化答案。 [官方 Skill](https://github.com/typesafe-ai/skills).
+- **[OpenRouter](https://openrouter.ai/typesafe)** — 通过 OpenRouter API 或 Jev Lab 调用 Jev；当前始终指向最新版的模型 ID 是 `~typesafe/jev-latest`。 [OpenRouter 模型](https://openrouter.ai/typesafe).
+- **[AIJev Playground](https://aijev.net)** — 通过独立第三方演示体验三种决策类型；其表现不能作为官方服务性能的证据。 [打开 AIJev](https://aijev.net).
+
+直接使用 TypeSafe 时，可在 [TypeSafe 控制台](https://console.typesafe.ai/settings/keys)创建 API key。访问权限、价格、模型 ID 和安装命令可能变化，实际集成请以链接中的最新资料为准。
+
 ## 从这些案例开始
 
 - **[快速开始](https://docs.typesafe.ai/introduction/quickstart)** — 在 Playground 和 SDK 中构建第一个类型化判断。 [查看详情](catalog/DETAILS.zh-CN.md#official-quickstart)

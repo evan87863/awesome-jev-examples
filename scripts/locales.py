@@ -100,3 +100,58 @@ UI = {
 }}
 for locale in UI.values():
     locale['categories'] = dict(zip(KEYS, locale['categories']))
+
+CHANNELS = {
+    'en': {
+        'title': 'Ways to use Jev',
+        'intro': 'Choose the entry point that fits your workflow. The first four are official TypeSafe entry points; OpenRouter is a third-party model platform, and AIJev is an independent community demo.',
+        'items': [
+            ('Playground', 'Try Choice, Score, and Noul together in the browser—no local setup required.', 'https://console.typesafe.ai/playground', 'Open Playground'),
+            ('HTTP API', 'Send `state`, `model`, and typed `questions` to `POST https://api.typesafe.ai/v1/systemone`. Check the current schema before integrating.', 'https://docs.typesafe.ai/api', 'API reference'),
+            ('Python SDK', 'Run `pip install typesafe-sdk` for typed sync or async calls; the client reads `TYPESAFE_API_KEY` from the environment.', 'https://docs.typesafe.ai/sdk/python', 'Python SDK guide'),
+            ('Agent Skill', 'Run `npx skills add typesafe-ai/skills --skill typesafe-ai` so coding agents can design requests, batch independent questions, and interpret typed answers.', 'https://github.com/typesafe-ai/skills', 'Official skill'),
+            ('OpenRouter', 'Call Jev through OpenRouter’s API or Jev Lab. Its current always-latest model ID is `~typesafe/jev-latest`.', 'https://openrouter.ai/typesafe', 'OpenRouter models'),
+            ('AIJev playground', 'Explore the three decision types through an independent third-party demo. Its behavior is not evidence of the official service’s performance.', 'https://aijev.net', 'Open AIJev'),
+        ],
+        'footnote': 'For direct TypeSafe access, create an API key in the [TypeSafe console](https://console.typesafe.ai/settings/keys). Provider access, pricing, model IDs, and installation commands can change; follow the linked source when you integrate.',
+    },
+    'zh-CN': {
+        'title': 'Jev 使用渠道',
+        'intro': '按你的工作方式选择入口。前四项是 TypeSafe 官方入口；OpenRouter 是第三方模型平台，AIJev 是独立社区演示。',
+        'items': [
+            ('Playground', '直接在浏览器中同时体验 Choice、Score 和 Noul，无需本地配置。', 'https://console.typesafe.ai/playground', '打开 Playground'),
+            ('HTTP API', '向 `POST https://api.typesafe.ai/v1/systemone` 发送 `state`、`model` 和类型化的 `questions`；集成前请核对最新架构。', 'https://docs.typesafe.ai/api', 'API 参考'),
+            ('Python SDK', '运行 `pip install typesafe-sdk` 进行同步或异步调用；客户端从环境变量读取 `TYPESAFE_API_KEY`。', 'https://docs.typesafe.ai/sdk/python', 'Python SDK 指南'),
+            ('Agent Skill', '运行 `npx skills add typesafe-ai/skills --skill typesafe-ai`，让编码智能体设计请求、批量处理独立问题并读取类型化答案。', 'https://github.com/typesafe-ai/skills', '官方 Skill'),
+            ('OpenRouter', '通过 OpenRouter API 或 Jev Lab 调用 Jev；当前始终指向最新版的模型 ID 是 `~typesafe/jev-latest`。', 'https://openrouter.ai/typesafe', 'OpenRouter 模型'),
+            ('AIJev Playground', '通过独立第三方演示体验三种决策类型；其表现不能作为官方服务性能的证据。', 'https://aijev.net', '打开 AIJev'),
+        ],
+        'footnote': '直接使用 TypeSafe 时，可在 [TypeSafe 控制台](https://console.typesafe.ai/settings/keys)创建 API key。访问权限、价格、模型 ID 和安装命令可能变化，实际集成请以链接中的最新资料为准。',
+    },
+    'ja': {
+        'title': 'Jev を利用する方法',
+        'intro': '用途に合う入口を選べます。最初の四つは TypeSafe 公式の入口です。OpenRouter は第三者のモデル基盤、AIJev は独立したコミュニティデモです。',
+        'items': [
+            ('Playground', 'ローカル設定なしで、ブラウザから Choice、Score、Noul をまとめて試せます。', 'https://console.typesafe.ai/playground', 'Playground を開く'),
+            ('HTTP API', '`state`、`model`、型付きの `questions` を `POST https://api.typesafe.ai/v1/systemone` に送信します。実装前に最新スキーマを確認してください。', 'https://docs.typesafe.ai/api', 'API リファレンス'),
+            ('Python SDK', '`pip install typesafe-sdk` で導入して同期・非同期で呼び出せます。API キーは `TYPESAFE_API_KEY` から読み込みます。', 'https://docs.typesafe.ai/sdk/python', 'Python SDK ガイド'),
+            ('Agent Skill', '`npx skills add typesafe-ai/skills --skill typesafe-ai` で公式 Skill を導入し、質問設計、一括処理、回答の読み方をエージェントに提供します。', 'https://github.com/typesafe-ai/skills', '公式 Skill'),
+            ('OpenRouter', 'OpenRouter API または Jev Lab から利用できます。現在の常時最新版モデル ID は `~typesafe/jev-latest` です。', 'https://openrouter.ai/typesafe', 'OpenRouter のモデル'),
+            ('AIJev Playground', '独立した第三者デモで三種類の判断を試せます。動作結果は公式サービスの性能を示すものではありません。', 'https://aijev.net', 'AIJev を開く'),
+        ],
+        'footnote': 'TypeSafe に直接接続する場合は、[TypeSafe コンソール](https://console.typesafe.ai/settings/keys)で API キーを作成します。利用条件、価格、モデル ID、導入コマンドは変わる可能性があるため、実装時はリンク先の最新版を確認してください。',
+    },
+    'es': {
+        'title': 'Formas de usar Jev',
+        'intro': 'Elige el punto de acceso que mejor encaje con tu flujo. Los cuatro primeros son accesos oficiales de TypeSafe; OpenRouter es una plataforma externa y AIJev es una demo comunitaria independiente.',
+        'items': [
+            ('Playground', 'Prueba Choice, Score y Noul conjuntamente en el navegador, sin instalación local.', 'https://console.typesafe.ai/playground', 'Abrir Playground'),
+            ('API HTTP', 'Envía `state`, `model` y `questions` tipadas a `POST https://api.typesafe.ai/v1/systemone`. Revisa el esquema actual antes de integrar.', 'https://docs.typesafe.ai/api', 'Referencia de la API'),
+            ('SDK de Python', 'Ejecuta `pip install typesafe-sdk` para llamadas síncronas o asíncronas; el cliente lee `TYPESAFE_API_KEY` del entorno.', 'https://docs.typesafe.ai/sdk/python', 'Guía del SDK'),
+            ('Agent Skill', 'Ejecuta `npx skills add typesafe-ai/skills --skill typesafe-ai` para enseñar a los agentes a diseñar y agrupar preguntas e interpretar respuestas.', 'https://github.com/typesafe-ai/skills', 'Skill oficial'),
+            ('OpenRouter', 'Accede a Jev mediante la API de OpenRouter o Jev Lab. El identificador actual que apunta siempre a la última versión es `~typesafe/jev-latest`.', 'https://openrouter.ai/typesafe', 'Modelos en OpenRouter'),
+            ('AIJev Playground', 'Explora los tres tipos de decisión en una demo externa e independiente. Su comportamiento no demuestra el rendimiento del servicio oficial.', 'https://aijev.net', 'Abrir AIJev'),
+        ],
+        'footnote': 'Para acceso directo a TypeSafe, crea una clave en la [consola de TypeSafe](https://console.typesafe.ai/settings/keys). El acceso, los precios, los identificadores y los comandos pueden cambiar; consulta la fuente enlazada al integrar.',
+    },
+}

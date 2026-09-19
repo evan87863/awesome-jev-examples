@@ -12,6 +12,19 @@
 
 確認済みとは、記載の資料を読んだという意味です。実行、監査、効果の保証ではありません。本リポジトリで追試した事例はありません。公式ページ二件は本文を一部しか取得できず、その旨を明記しています。作者の性能報告は独立に検証していません。
 
+## Jev を利用する方法
+
+用途に合う入口を選べます。最初の四つは TypeSafe 公式の入口です。OpenRouter は第三者のモデル基盤、AIJev は独立したコミュニティデモです。
+
+- **[Playground](https://console.typesafe.ai/playground)** — ローカル設定なしで、ブラウザから Choice、Score、Noul をまとめて試せます。 [Playground を開く](https://console.typesafe.ai/playground).
+- **[HTTP API](https://docs.typesafe.ai/api)** — `state`、`model`、型付きの `questions` を `POST https://api.typesafe.ai/v1/systemone` に送信します。実装前に最新スキーマを確認してください。 [API リファレンス](https://docs.typesafe.ai/api).
+- **[Python SDK](https://docs.typesafe.ai/sdk/python)** — `pip install typesafe-sdk` で導入して同期・非同期で呼び出せます。API キーは `TYPESAFE_API_KEY` から読み込みます。 [Python SDK ガイド](https://docs.typesafe.ai/sdk/python).
+- **[Agent Skill](https://github.com/typesafe-ai/skills)** — `npx skills add typesafe-ai/skills --skill typesafe-ai` で公式 Skill を導入し、質問設計、一括処理、回答の読み方をエージェントに提供します。 [公式 Skill](https://github.com/typesafe-ai/skills).
+- **[OpenRouter](https://openrouter.ai/typesafe)** — OpenRouter API または Jev Lab から利用できます。現在の常時最新版モデル ID は `~typesafe/jev-latest` です。 [OpenRouter のモデル](https://openrouter.ai/typesafe).
+- **[AIJev Playground](https://aijev.net)** — 独立した第三者デモで三種類の判断を試せます。動作結果は公式サービスの性能を示すものではありません。 [AIJev を開く](https://aijev.net).
+
+TypeSafe に直接接続する場合は、[TypeSafe コンソール](https://console.typesafe.ai/settings/keys)で API キーを作成します。利用条件、価格、モデル ID、導入コマンドは変わる可能性があるため、実装時はリンク先の最新版を確認してください。
+
 ## まず見たい事例
 
 - **[クイックスタート](https://docs.typesafe.ai/introduction/quickstart)** — Playground や SDK で、最初の型付きリクエストを作ります。 [詳細を見る](catalog/DETAILS.ja.md#official-quickstart)

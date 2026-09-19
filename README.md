@@ -12,6 +12,19 @@ A curated index for **[TypeSafe AI’s Jev](https://docs.typesafe.ai/introductio
 
 Review means reading the stated source, not running or auditing the project. No examples have been reproduced here. Two official pages were only partially retrieved and are marked accordingly. Author-reported performance is not independently verified.
 
+## Ways to use Jev
+
+Choose the entry point that fits your workflow. The first four are official TypeSafe entry points; OpenRouter is a third-party model platform, and AIJev is an independent community demo.
+
+- **[Playground](https://console.typesafe.ai/playground)** — Try Choice, Score, and Noul together in the browser—no local setup required. [Open Playground](https://console.typesafe.ai/playground).
+- **[HTTP API](https://docs.typesafe.ai/api)** — Send `state`, `model`, and typed `questions` to `POST https://api.typesafe.ai/v1/systemone`. Check the current schema before integrating. [API reference](https://docs.typesafe.ai/api).
+- **[Python SDK](https://docs.typesafe.ai/sdk/python)** — Run `pip install typesafe-sdk` for typed sync or async calls; the client reads `TYPESAFE_API_KEY` from the environment. [Python SDK guide](https://docs.typesafe.ai/sdk/python).
+- **[Agent Skill](https://github.com/typesafe-ai/skills)** — Run `npx skills add typesafe-ai/skills --skill typesafe-ai` so coding agents can design requests, batch independent questions, and interpret typed answers. [Official skill](https://github.com/typesafe-ai/skills).
+- **[OpenRouter](https://openrouter.ai/typesafe)** — Call Jev through OpenRouter’s API or Jev Lab. Its current always-latest model ID is `~typesafe/jev-latest`. [OpenRouter models](https://openrouter.ai/typesafe).
+- **[AIJev playground](https://aijev.net)** — Explore the three decision types through an independent third-party demo. Its behavior is not evidence of the official service’s performance. [Open AIJev](https://aijev.net).
+
+For direct TypeSafe access, create an API key in the [TypeSafe console](https://console.typesafe.ai/settings/keys). Provider access, pricing, model IDs, and installation commands can change; follow the linked source when you integrate.
+
 ## Start exploring
 
 - **[Quick start](https://docs.typesafe.ai/introduction/quickstart)** — Make a first typed request in the Playground or SDK. [Details](catalog/DETAILS.md#official-quickstart)
