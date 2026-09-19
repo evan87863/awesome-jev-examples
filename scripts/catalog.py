@@ -106,7 +106,10 @@ def output_edition(records, candidates, lang):
     text = f"# Awesome Jev Examples\n\n{language_nav('README', lang)}\n\n> {t['tagline']}\n\n{t['intro']}\n\n{nav}\n\n{stats}\n\n{t['notice']}\n\n"
     channels = CHANNELS[lang]
     text += f"## {channels['title']}\n\n{channels['intro']}\n\n"
-    for title, summary, url, label in channels['items']:
+    for title, summary, url, label in channels['items'][:4]:
+        text += f"- **[{title}]({url})** — {summary} [{label}]({url}).\n"
+    text += f"\n### {channels['third_party_title']}\n\n{channels['third_party_intro']}\n\n"
+    for title, summary, url, label in channels['items'][4:]:
         text += f"- **[{title}]({url})** — {summary} [{label}]({url}).\n"
     text += f"\n{channels['footnote']}\n\n## {t['featured']}\n\n"
     lookup = {r['id']: r for r in records}
