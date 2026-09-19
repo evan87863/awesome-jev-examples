@@ -1,0 +1,362 @@
+{
+  "typesafe-ai--typesafe-sdk-python": {
+    "title": "公式 Python SDK",
+    "summary": "公式 Python クライアント。問い合わせ分類の最小例から始められます。",
+    "limitations": "単独のアプリではなく、API 接続用のリソースです。"
+  },
+  "abovecolin--ha-jev": {
+    "title": "Jev for Home Assistant",
+    "summary": "家庭の状態について質問し、Home Assistant の自動化に使える値を返します。",
+    "limitations": "Home Assistant が必要です。本リポジトリでは実機を試していません。"
+  },
+  "itsmostafa--typesafe-mcp": {
+    "title": "Typesafe MCP",
+    "summary": "MCP サーバーを通じて、型付きの判断をコーディング支援ツールに提供します。",
+    "limitations": "クライアント設定と API キーが必要です。"
+  },
+  "jkudish--jev-mcp": {
+    "title": "Jev MCP (jkudish)",
+    "summary": "検証、フィルタリング、再ランキング、分類、コードレビューを行う MCP ツール群です。",
+    "limitations": "ツール数やインターフェースはバージョンによって変わります。"
+  },
+  "tamaratran--fast-jev-compaction": {
+    "title": "fast-jev-compaction",
+    "summary": "ツール呼び出しと結果を評価し、古い内容を削減して、残す部分は原文のまま保持します。",
+    "limitations": "削除した情報が後で必要になる可能性があります。後続タスクへの影響を評価してください。"
+  },
+  "0xnatoshi--jev-codex-router": {
+    "title": "Jev Codex Router",
+    "summary": "会話の各ターンで、Jev がモデルと推論の深さを選びます。",
+    "limitations": "既存の Codex Router が必要です。作者のコスト削減結果は未追試です。"
+  },
+  "thruwire--foreman": {
+    "title": "Foreman",
+    "summary": "実装が完了したか、テストが十分か、人の入力が必要かを判断します。",
+    "limitations": "完了の判断は、コードの正しさを独立に検証するものではありません。"
+  },
+  "ghalebdweikat--winnow": {
+    "title": "Winnow",
+    "summary": "大きなツール出力をコンテキスト投入前に絞り込み、隠した原文を復元できるようにします。",
+    "limitations": "関連性の判断は Jev、要約には別のモデルも使います。"
+  },
+  "devagrawal09--jev-review": {
+    "title": "Jev Review (devagrawal09)",
+    "summary": "差分やリポジトリを、リスク判定、根拠選択、重大度評価の段階に分けてレビューします。",
+    "limitations": "構造化された評価もテストの代わりにはなりません。"
+  },
+  "niazmorshed2007--jev-review": {
+    "title": "Jev Review MCP",
+    "summary": "ローカル MCP サーバーが、作業中のコーディングエージェントに品質スコアを返します。",
+    "limitations": "修正はエージェントが担当します。スコアは正しさの証明ではありません。"
+  },
+  "noelzappy--tripwire": {
+    "title": "Tripwire",
+    "summary": "応答がユーザーに届く前に、ミドルウェアやプロキシで内容を検査します。",
+    "limitations": "遅延の数値は未追試です。誤検出と見逃しを評価する必要があります。"
+  },
+  "rashedint32--jev-gates": {
+    "title": "jev-gates",
+    "summary": "コーディング中のルール、作業範囲、完了宣言を確認し、必要なときに確認を求めます。",
+    "limitations": "承認は行わず、確認要求のみを出します。権限管理システムではありません。"
+  },
+  "devmortimer--pi-warden": {
+    "title": "pi-warden",
+    "summary": "編集やツール利用を監視し、ルール違反、再試行ループ、完了根拠を確認します。",
+    "limitations": "特定エージェント向けの実装です。作者の測定値は一般的な性能を保証しません。"
+  },
+  "gargpratyush--jev-router": {
+    "title": "jev-router",
+    "summary": "Claude Code や Codex の新しいターンを、適切なモデル階層に振り分けます。",
+    "limitations": "元の CLI とその認証環境が必要です。"
+  },
+  "andrelandgraf--safer-with-jev": {
+    "title": "Safer with Jev",
+    "summary": "内容の判定と、任意の HTTPS 転送を組み合わせた公開デモです。",
+    "limitations": "サービスとソースは別々に更新されます。転送動作は未検証です。"
+  },
+  "m0rphtail--triagedy": {
+    "title": "Triagedy",
+    "summary": "JSONL 形式のセキュリティ通知を、Unix パイプラインで扱える判断結果に変換します。",
+    "limitations": "自分のラベル付きデータで振り分け性能を評価する必要があります。"
+  },
+  "mrnugget--jev-shell-history": {
+    "title": "jev-shell-history",
+    "summary": "入力中の内容に合わせて、既存の zsh コマンド履歴を順位付けします。",
+    "limitations": "履歴をモデルに渡します。デモでは架空の履歴を使っています。"
+  },
+  "markjaquith--typesafe-ai-playground": {
+    "title": "TypeSafe AI Playground (Rust CLI)",
+    "summary": "機微情報検出、コメントレビュー、語調分析、業種分類を試す Rust CLI です。",
+    "limitations": "機微情報検出は実験であり、コンプライアンス認証ではありません。"
+  },
+  "browser-use--jev-ultrafast": {
+    "title": "Jev Ultrafast",
+    "summary": "動的なページ要素一覧から、操作と対象要素をまとめて選びます。",
+    "limitations": "自由文は小型 LLM が生成します。航空券デモは検索のみで予約はしません。"
+  },
+  "awlevin--typesafe-computer-use": {
+    "title": "typesafe-computer-use",
+    "summary": "OCR とアクセシビリティ API で Mac の画面を読み、Jev が次の操作を選びます。",
+    "limitations": "システム権限が必要です。一部の自由文には別の生成モデルを使います。"
+  },
+  "jkudish--jev-browser": {
+    "title": "Jev Browser",
+    "summary": "ライブラリ、CLI、MCP からブラウザを操作し、予算、復旧、判断履歴を管理します。",
+    "limitations": "実際のブラウザを操作します。本リポジトリでは説明資料のみ確認しました。"
+  },
+  "droidrun--mobile-jev": {
+    "title": "Mobile Jev",
+    "summary": "Mobilerun の Android 端末で、現在の画面状態から操作を選択します。",
+    "limitations": "Uber デモは支払い選択までです。予約完了は示されていません。"
+  },
+  "realzachi--pg-jev": {
+    "title": "pg-jev",
+    "summary": "自然言語の条件で行を絞り込み、順位付け、分類する PostgreSQL 拡張です。",
+    "limitations": "拡張と API 呼び出しが必要です。ローカル DB への導入は行っていません。"
+  },
+  "kylemclaren--jevql": {
+    "title": "jevQL",
+    "summary": "通常の PostgreSQL クエリに、クライアント側で Jev の判断を追加します。",
+    "limitations": "DB は通常のクエリを実行し、意味の評価は外部で行います。"
+  },
+  "colliber--duckdb-jev": {
+    "title": "duckdb-jev",
+    "summary": "DuckDB のクエリから、テーブルや Parquet データの型付き判断を返します。",
+    "limitations": "拡張と認証情報が必要です。サンプルクエリは未実行です。"
+  },
+  "reachjalil--jevlogs": {
+    "title": "Jev Logs",
+    "summary": "OpenTelemetry ログを評価し、必要なレコードを高コストの分析へ振り分けます。",
+    "limitations": "プレビュー版です。不確実な記録や API 障害時の記録も分析対象に残す設計です。"
+  },
+  "jexp--neo4jev": {
+    "title": "neo4jev",
+    "summary": "同じ呼び出しで、グラフの次の関係を選び、目標に到達したかも判定します。",
+    "limitations": "Neo4j が必要です。経路スコアは回答の正解率ではありません。"
+  },
+  "kitze--unclutter": {
+    "title": "Unclutter",
+    "summary": "Jev でページの不要な要素を判定し、テンプレートのルールとして再利用する拡張です。",
+    "limitations": "必要な内容を隠す可能性があります。拡張は未インストールです。"
+  },
+  "realzachi--typesafe-adblock": {
+    "title": "TypeSafe Fun AdBlocker",
+    "summary": "DOM 要素が広告かどうかを判定し、ブラウザ側のコードで取り除きます。",
+    "limitations": "作者は趣味のデモと明記しています。完全な広告・追跡対策ではありません。"
+  },
+  "brainstormity--jev-moderation-bot": {
+    "title": "Jev Moderation Bot",
+    "summary": "Discord のスパムや詐欺リンクを判定し、段階的なモデレーションを行います。",
+    "limitations": "削除やユーザーへの処分を伴います。接続や誤判定率の検証は未実施です。"
+  },
+  "chetaslua--jevmeter": {
+    "title": "JEVMETER",
+    "summary": "動画の文字起こしを文ごとに評価し、結果をメーターとして映像に表示します。",
+    "limitations": "作者は、これらのスコアはファクトチェックではないと明記しています。"
+  },
+  "abhixhek--jevcal": {
+    "title": "jevcal",
+    "summary": "自分のデータで信頼度の閾値を選び、モデル更新による変化を検出します。",
+    "limitations": "付属デモはシミュレーターで、実 API の測定結果ではありません。"
+  },
+  "firassx914--janus": {
+    "title": "Janus",
+    "summary": "小型・大型モデルの振り分け条件を測定し、振り分けを採用しない選択もできます。",
+    "limitations": "正解ラベルのないログで測れるのは一致率であり、正解率ではありません。"
+  },
+  "abdelstark--jev-benchmarks": {
+    "title": "jev-benchmarks",
+    "summary": "確率の校正、自動処理率、遅延、リソース消費を評価します。",
+    "limitations": "結果はデータ、モデルの版、評価設計に依存します。本リポジトリでは未追試です。"
+  },
+  "iammrduncan--typesafe-ai-benchmark": {
+    "title": "typesafe-ai-benchmark",
+    "summary": "同じアプリケーション課題で、LLM の構造化出力と Jev を比較します。",
+    "limitations": "合成データの課題を含み、そのまま本番に一般化はできません。"
+  },
+  "emrickgarrett--onevonejev": {
+    "title": "1v1 Jev",
+    "summary": "ブラウザ上の対戦ゲームで、Jev がキャラクターの行動を選びます。",
+    "limitations": "ヒューリスティックな代替処理もあり、すべての動作が Jev によるものではありません。"
+  },
+  "fhshaik--typesafe-mario": {
+    "title": "TypeSafe Mario",
+    "summary": "エミュレーターの RAM と計測値を状態に変換し、Jev が NES の操作を選びます。",
+    "limitations": "実験的なコントローラーです。Jev にスクリーンショットは送りません。"
+  },
+  "phyous--tsai-sc": {
+    "title": "Jev Plays StarCraft",
+    "summary": "構造化状態から StarCraft 体験版のミッションを操作し、行動確率を記録します。",
+    "limitations": "特定ミッションの成功報告であり、一般的なゲーム能力を示すものではありません。"
+  },
+  "ably-labs--jev-pong": {
+    "title": "Jev Pong",
+    "summary": "モデルの判断ごとに Pong の球を一歩進め、応答待ち時間を可視化します。",
+    "limitations": "球速は呼び出し時間に依存します。同じ時計での競技能力比較ではありません。"
+  },
+  "romanslack--jev-drone": {
+    "title": "jev-drone",
+    "summary": "MuJoCo のドローン仮想環境で Jev が状況を判断し、高速制御はコードが担当します。",
+    "limitations": "Jev は画像を直接見ません。知覚結果を構造化してから入力します。"
+  },
+  "denikuchero--jev-chess-lab": {
+    "title": "Jev Chess Lab",
+    "summary": "Jev 単独、戦術フィルター、Stockfish 支援を分けて記録したチェス実験です。",
+    "limitations": "作者によると単独の Jev は駒を失うミスが残ります。再生映像は実時間の録画ではありません。"
+  },
+  "socai-io--jev-social": {
+    "title": "Jev for Social Media",
+    "summary": "Jev が SNS の操作を選び、socai がブラウザで実行します。",
+    "limitations": "古い動画は初期の振り分け版です。現在の全ワークフローを示すものではありません。"
+  },
+  "monteduro--killmyidea": {
+    "title": "Kill My Idea",
+    "summary": "起業アイデアに複数の質問を並列で行い、スコアを組み合わせて定型の判定を出します。",
+    "limitations": "事業の成功予測ではありません。作者の実装は評価結果を既定で保存します。"
+  },
+  "teyhouse--jev-secret-detection": {
+    "title": "jev-secret-detection",
+    "summary": "コード片に利用可能な秘密情報が含まれるか、Noul の質問で評価します。",
+    "limitations": "正規表現や発行元での検証をあえて省いています。完全な秘密情報スキャナーではありません。"
+  },
+  "blakestone-x--jev-mcp": {
+    "title": "Jev MCP (blakestone-x)",
+    "summary": "分類、評価、照合、フィルタリング向けの MCP ツールとリクエスト例です。",
+    "limitations": "複数の入力を一つの状態に入れても、それぞれ個別に分類されるとは限りません。"
+  },
+  "code-forge-au--jev-llm": {
+    "title": "jev-llm",
+    "summary": "候補から次の単語を繰り返し選ぶことで、文章生成を構成する実験です。",
+    "limitations": "各段階は候補選択です。Jev 自体が自由文を生成する機能ではありません。"
+  },
+  "rtrvr-browser-benchmark": {
+    "title": "Retriever AI：ブラウザエージェントの実測",
+    "summary": "GLM の計画と Jev の操作選択を組み合わせ、速度改善と総費用増加を報告した開発者記事です。",
+    "limitations": "各課題・構成につき一回の実行で、ページや計画も異なります。独立した追試はしていません。"
+  },
+  "official-quickstart": {
+    "title": "クイックスタート",
+    "summary": "Playground や SDK で、最初の型付きリクエストを作ります。",
+    "limitations": "公式の例または作者の報告です。本リポジトリでは API を使った追試はしていません。"
+  },
+  "official-fan-out": {
+    "title": "分岐候補の並列評価",
+    "summary": "考えられる分岐をまとめて質問し、必要な回答をコードで選びます。",
+    "limitations": "公式の例または作者の報告です。本リポジトリでは API を使った追試はしていません。"
+  },
+  "official-confidence-routing": {
+    "title": "信頼度に応じた振り分け",
+    "summary": "回答と実行判断を分け、自分のデータで確認を求める閾値を測ります。",
+    "limitations": "公式の例または作者の報告です。本リポジトリでは API を使った追試はしていません。"
+  },
+  "official-composite-scoring": {
+    "title": "スコアの組み合わせ",
+    "summary": "複数の観点を別々に評価し、コードで明示した重みを使って組み合わせます。",
+    "limitations": "公式の例または作者の報告です。本リポジトリでは API を使った追試はしていません。"
+  },
+  "official-intent-routing": {
+    "title": "意図の振り分け",
+    "summary": "入力を分類し、ルール、専門モデル、人の担当へ振り分けます。",
+    "limitations": "公式の例または作者の報告です。本リポジトリでは API を使った追試はしていません。 本文の取得は不完全で、タイトル、導入文、公式目次のみ確認しました。"
+  },
+  "official-smart-home": {
+    "title": "スマートホーム助手",
+    "summary": "家庭の操作依頼を、一回の呼び出しにまとめた複数の質問で評価します。",
+    "limitations": "公式の例または作者の報告です。本リポジトリでは API を使った追試はしていません。"
+  },
+  "official-jev-1-13": {
+    "title": "Jev 1.13 の既知の限界",
+    "summary": "このモデルバージョンについて公開された弱点と失敗例を確認できます。",
+    "limitations": "公式の例または作者の報告です。本リポジトリでは API を使った追試はしていません。 特定バージョンの限界です。更新後は再評価が必要です。"
+  },
+  "official-consistency-noul-cookbook": {
+    "title": "Noul の一貫性",
+    "summary": "保険請求の判断を繰り返し、不確実性と安定性を確認します。一貫性は正しさとは別です。",
+    "limitations": "公式の例または作者の報告です。本リポジトリでは API を使った追試はしていません。 本文の取得は不完全で、タイトル、導入文、公式目次のみ確認しました。"
+  },
+  "official-consistency-choice-cookbook": {
+    "title": "Choice の一貫性",
+    "summary": "モデレーションに保留の選択肢を加え、一致率と自動処理率を比較します。",
+    "limitations": "公式の例または作者の報告です。本リポジトリでは API を使った追試はしていません。"
+  },
+  "official-parallel-questions": {
+    "title": "質問の一括処理",
+    "summary": "一つの文書への複数の質問を、まとめて送る場合と分ける場合で比較します。",
+    "limitations": "公式の例または作者の報告です。本リポジトリでは API を使った追試はしていません。"
+  },
+  "official-rerank-typesafe": {
+    "title": "検索結果の再ランキング",
+    "summary": "BM25 で候補を絞り、質問と段落の関連を評価します。例は法律文書の検索です。",
+    "limitations": "公式の例または作者の報告です。本リポジトリでは API を使った追試はしていません。 法律文書での結果は、他のすべての文書での性能を保証しません。"
+  },
+  "official-semantic-find": {
+    "title": "行単位の意味検索",
+    "summary": "関連する行番号を選び、答えが文書に存在するかも別に確認します。",
+    "limitations": "公式の例または作者の報告です。本リポジトリでは API を使った追試はしていません。"
+  },
+  "official-autoformat": {
+    "title": "文書構造の復元",
+    "summary": "改行、見出し、リスト、コードブロックを分類し、コードで Markdown を再構成します。",
+    "limitations": "公式の例または作者の報告です。本リポジトリでは API を使った追試はしていません。"
+  },
+  "official-function-calling": {
+    "title": "選択肢を限定した関数呼び出し",
+    "summary": "関数名と有限の引数候補を、型付きの判断に変換します。",
+    "limitations": "公式の例または作者の報告です。本リポジトリでは API を使った追試はしていません。"
+  },
+  "official-skill-suggestion": {
+    "title": "エージェントのスキル選択",
+    "summary": "スキル候補を順位付けして少数の詳細を読み、すべて不適合と判断することもできます。",
+    "limitations": "公式の例または作者の報告です。本リポジトリでは API を使った追試はしていません。"
+  },
+  "official-entity-alignment": {
+    "title": "知識グラフのエンティティ照合",
+    "summary": "候補同士を統合するか、別々に残すか、人が確認するかを判断します。",
+    "limitations": "公式の例または作者の報告です。本リポジトリでは API を使った追試はしていません。"
+  },
+  "official-classifying-rag-passages": {
+    "title": "RAG 段落の分類",
+    "summary": "検索から文章生成までの間に、関連性、矛盾、埋め込まれた指示を確認します。",
+    "limitations": "公式の例または作者の報告です。本リポジトリでは API を使った追試はしていません。"
+  },
+  "official-citation-check": {
+    "title": "引用の確認",
+    "summary": "引用文が実在するかを確認してから、文脈が主張を裏付けているかを判断します。",
+    "limitations": "公式の例または作者の報告です。本リポジトリでは API を使った追試はしていません。"
+  },
+  "official-llm-guardrails": {
+    "title": "LLM の入力・出力チェック",
+    "summary": "リスクの質問と重大度スコアで、通過、確認、ブロックを選びます。",
+    "limitations": "公式の例または作者の報告です。本リポジトリでは API を使った追試はしていません。 モデルによる検査は、回避不可能なセキュリティ境界ではありません。"
+  },
+  "official-sde-cascade": {
+    "title": "構造化抽出の段階処理",
+    "summary": "小型モデルで抽出し、Jev で各項目を検証して、必要な場合に上位モデルへ回します。",
+    "limitations": "公式の例または作者の報告です。本リポジトリでは API を使った追試はしていません。"
+  },
+  "official-date-extraction-cookbook": {
+    "title": "日付の抽出",
+    "summary": "文中の日付の各要素を選び、暦の計算と検証はコードが担当します。",
+    "limitations": "公式の例または作者の報告です。本リポジトリでは API を使った追試はしていません。"
+  },
+  "official-pre-parsed-value-extraction-cookbook": {
+    "title": "事前抽出した値の選択",
+    "summary": "正規表現で候補を見つけ、Jev で選び、元の文字列をコピーします。",
+    "limitations": "公式の例または作者の報告です。本リポジトリでは API を使った追試はしていません。 原文をコピーしても、候補を間違えて選ぶ可能性は残ります。"
+  },
+  "official-hierarchical-classification": {
+    "title": "階層分類",
+    "summary": "確率を使ってラベルの木を探索し、分岐と最終ラベル両方の誤りを追跡します。",
+    "limitations": "公式の例または作者の報告です。本リポジトリでは API を使った追試はしていません。"
+  },
+  "official-autoresearch-feature-discovery": {
+    "title": "特徴量の自動発見",
+    "summary": "LLM が質問を提案し、Jev が数値化し、CatBoost の誤りを次の改善に使います。",
+    "limitations": "公式の例または作者の報告です。本リポジトリでは API を使った追試はしていません。 ラベル付きデータを使い、学習と評価を分けてください。"
+  },
+  "official-classification-using-confidence": {
+    "title": "粗いラベルへの切り替え付き分類",
+    "summary": "年次報告書を業種分類し、信頼度が低い場合はより広い分類に戻します。",
+    "limitations": "公式の例または作者の報告です。本リポジトリでは API を使った追試はしていません。"
+  }
+}

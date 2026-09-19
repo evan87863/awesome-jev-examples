@@ -1,0 +1,46 @@
+name: Suggest a Jev resource
+description: Suggest a project, tutorial, video, or original author post
+title: "[Resource] "
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Original URL
+      description: Prefer the author's repository, article, specific X post, or YouTube video.
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Author or organization
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: What does Jev actually decide?
+      description: Describe the input, output, and how the application uses the answer.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and related links
+      description: Code, demos, original posts, or execution records. Group channels for the same project.
+    validations:
+      required: true
+  - type: dropdown
+    id: checked
+    attributes:
+      label: What have you checked?
+      options:
+        - Found the link only
+        - Read the original article or README
+        - Watched the full demonstration
+        - Ran it and can provide reproduction records
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: Limitations, failures, or involvement of other models

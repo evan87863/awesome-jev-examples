@@ -1,0 +1,282 @@
+[
+  {
+    "id": "x-2100715237267660873",
+    "title": "Full Jev tutorial",
+    "url": "https://x.com/moritzkremb/status/2100715237267660873",
+    "platform": "x",
+    "discovered_via": "https://madewithjev.com/",
+    "checked_at": "2026-09-19",
+    "verification": "discovery-only",
+    "note": "Browser title and chapters were visible: voice browser, AI memory, YouTube predictor. Full video not watched; still pending review."
+  },
+  {
+    "id": "x-2100036101809619314",
+    "title": "A hype-free explanation of Jev",
+    "url": "https://x.com/NathanFlurry/status/2100036101809619314",
+    "platform": "x",
+    "discovered_via": "https://madewithjev.com/",
+    "checked_at": "2026-09-19",
+    "verification": "discovery-only",
+    "note": "Original link discovered in a directory; post or full video not independently reviewed."
+  },
+  {
+    "id": "x-2100277062309179521",
+    "title": "Arbitrary classification as a primitive",
+    "url": "https://x.com/cocktailpeanut/status/2100277062309179521",
+    "platform": "x",
+    "discovered_via": "https://madewithjev.com/",
+    "checked_at": "2026-09-19",
+    "verification": "discovery-only",
+    "note": "Original link discovered in a directory; post or full video not independently reviewed."
+  },
+  {
+    "id": "x-2100113737097367896",
+    "title": "LLMs generate answers, Jev makes decisions",
+    "url": "https://x.com/paarangatrai/status/2100113737097367896",
+    "platform": "x",
+    "discovered_via": "https://madewithjev.com/",
+    "checked_at": "2026-09-19",
+    "verification": "discovery-only",
+    "note": "Original link discovered in a directory; post or full video not independently reviewed."
+  },
+  {
+    "id": "x-2100659471257366766",
+    "title": "How Jev makes agents faster and cheaper",
+    "url": "https://x.com/da_fant/status/2100659471257366766",
+    "platform": "x",
+    "discovered_via": "https://madewithjev.com/",
+    "checked_at": "2026-09-19",
+    "verification": "discovery-only",
+    "note": "Original link discovered in a directory; post or full video not independently reviewed."
+  },
+  {
+    "id": "x-2100788572316139655",
+    "title": "WTF is Jev, and 9 things people are building",
+    "url": "https://x.com/mvanhorn/status/2100788572316139655",
+    "platform": "x",
+    "discovered_via": "https://madewithjev.com/",
+    "checked_at": "2026-09-19",
+    "verification": "discovery-only",
+    "note": "Original link discovered in a directory; post or full video not independently reviewed."
+  },
+  {
+    "id": "x-2100421326389354624",
+    "title": "Custom Jev-style models for agent workflows",
+    "url": "https://x.com/swill1ams/status/2100421326389354624",
+    "platform": "x",
+    "discovered_via": "https://madewithjev.com/",
+    "checked_at": "2026-09-19",
+    "verification": "discovery-only",
+    "note": "Original link discovered in a directory; post or full video not independently reviewed."
+  },
+  {
+    "id": "x-2100739055923425589",
+    "title": "The compaction plugin, tried",
+    "url": "https://x.com/altryne/status/2100739055923425589",
+    "platform": "x",
+    "discovered_via": "https://madewithjev.com/",
+    "checked_at": "2026-09-19",
+    "verification": "discovery-only",
+    "note": "Original link discovered in a directory; post or full video not independently reviewed."
+  },
+  {
+    "id": "x-2100780634734002230",
+    "title": "The compaction plugin, in Chinese",
+    "url": "https://x.com/SUOHA_AI/status/2100780634734002230",
+    "platform": "x",
+    "discovered_via": "https://madewithjev.com/",
+    "checked_at": "2026-09-19",
+    "verification": "discovery-only",
+    "note": "Original link discovered in a directory; post or full video not independently reviewed."
+  },
+  {
+    "id": "x-2100762304862384257",
+    "title": "The case against Jev compaction",
+    "url": "https://x.com/theo/status/2100762304862384257",
+    "platform": "x",
+    "discovered_via": "https://madewithjev.com/",
+    "checked_at": "2026-09-19",
+    "verification": "discovery-only",
+    "note": "Original link discovered in a directory; post or full video not independently reviewed."
+  },
+  {
+    "id": "youtube-4mTLpuQpB80",
+    "title": "Jev is HERE. How to use it",
+    "url": "https://www.youtube.com/watch?v=4mTLpuQpB80",
+    "platform": "youtube",
+    "discovered_via": "https://madewithjev.com/",
+    "checked_at": "2026-09-19",
+    "verification": "discovery-only",
+    "note": "Original link discovered in a directory; post or full video not independently reviewed."
+  },
+  {
+    "id": "youtube-QbYBRjOaGOo",
+    "title": "wtf is jev?",
+    "url": "https://www.youtube.com/watch?v=QbYBRjOaGOo",
+    "platform": "youtube",
+    "discovered_via": "https://madewithjev.com/",
+    "checked_at": "2026-09-19",
+    "verification": "discovery-only",
+    "note": "Original link discovered in a directory; post or full video not independently reviewed."
+  },
+  {
+    "id": "youtube-9oWxrsRo4d8",
+    "title": "Meet Jev: tested on 1,000 emails",
+    "url": "https://www.youtube.com/watch?v=9oWxrsRo4d8",
+    "platform": "youtube",
+    "discovered_via": "https://madewithjev.com/",
+    "checked_at": "2026-09-19",
+    "verification": "discovery-only",
+    "note": "Original link discovered in a directory; post or full video not independently reviewed."
+  },
+  {
+    "id": "youtube-SNJ3yuJ_QwY",
+    "title": "Jev and Browser Use, fully tested",
+    "url": "https://www.youtube.com/watch?v=SNJ3yuJ_QwY",
+    "platform": "youtube",
+    "discovered_via": "https://madewithjev.com/",
+    "checked_at": "2026-09-19",
+    "verification": "discovery-only",
+    "note": "Original link discovered in a directory; post or full video not independently reviewed."
+  },
+  {
+    "id": "youtube-JsNQwFB9N1Q",
+    "title": "Jev in the rtrvr.ai browser agent",
+    "url": "https://www.youtube.com/watch?v=JsNQwFB9N1Q",
+    "platform": "youtube",
+    "discovered_via": "https://madewithjev.com/",
+    "checked_at": "2026-09-19",
+    "verification": "discovery-only",
+    "note": "Original link discovered in a directory; post or full video not independently reviewed."
+  },
+  {
+    "id": "youtube-7w8eRWnUUA8",
+    "title": "Jev and herdr: routing between models",
+    "url": "https://www.youtube.com/watch?v=7w8eRWnUUA8",
+    "platform": "youtube",
+    "discovered_via": "https://madewithjev.com/",
+    "checked_at": "2026-09-19",
+    "verification": "discovery-only",
+    "note": "Original link discovered in a directory; post or full video not independently reviewed."
+  },
+  {
+    "id": "youtube-5Lx4DLLYafM",
+    "title": "Livestream: coding with Jev",
+    "url": "https://www.youtube.com/watch?v=5Lx4DLLYafM",
+    "platform": "youtube",
+    "discovered_via": "https://madewithjev.com/",
+    "checked_at": "2026-09-19",
+    "verification": "discovery-only",
+    "note": "Original link discovered in a directory; post or full video not independently reviewed."
+  },
+  {
+    "id": "youtube-Ipom6c1fcP0",
+    "title": "What is Jev? (Tech Brew Ride Home)",
+    "url": "https://www.youtube.com/watch?v=Ipom6c1fcP0",
+    "platform": "youtube",
+    "discovered_via": "https://madewithjev.com/",
+    "checked_at": "2026-09-19",
+    "verification": "discovery-only",
+    "note": "Original link discovered in a directory; post or full video not independently reviewed."
+  },
+  {
+    "id": "x-2100844854490103835",
+    "title": "The use cases Jev unlocks",
+    "url": "https://x.com/tonnoz/status/2100844854490103835",
+    "platform": "x",
+    "discovered_via": "https://madewithjev.com/",
+    "checked_at": "2026-09-19",
+    "verification": "discovery-only",
+    "note": "Original link discovered in a directory; post or full video not independently reviewed."
+  },
+  {
+    "id": "x-2100982108873191861",
+    "title": "Getting started: install the skill",
+    "url": "https://x.com/iannuttall/status/2100982108873191861",
+    "platform": "x",
+    "discovered_via": "https://madewithjev.com/",
+    "checked_at": "2026-09-19",
+    "verification": "discovery-only",
+    "note": "Original link discovered in a directory; post or full video not independently reviewed."
+  },
+  {
+    "id": "x-2100744709589316009",
+    "title": "Jev on OpenRouter",
+    "url": "https://x.com/OpenRouter/status/2100744709589316009",
+    "platform": "x",
+    "discovered_via": "https://madewithjev.com/",
+    "checked_at": "2026-09-19",
+    "verification": "discovery-only",
+    "note": "Original link discovered in a directory; post or full video not independently reviewed."
+  },
+  {
+    "id": "x-2100688880798159254",
+    "title": "Jev on Cloudflare AI Gateway",
+    "url": "https://x.com/CloudflareDev/status/2100688880798159254",
+    "platform": "x",
+    "discovered_via": "https://madewithjev.com/",
+    "checked_at": "2026-09-19",
+    "verification": "discovery-only",
+    "note": "Original link discovered in a directory; post or full video not independently reviewed."
+  },
+  {
+    "id": "x-2100761338918363550",
+    "title": "Jev, explained like you’re five",
+    "url": "https://x.com/mvanhorn/status/2100761338918363550",
+    "platform": "x",
+    "discovered_via": "https://madewithjev.com/",
+    "checked_at": "2026-09-19",
+    "verification": "discovery-only",
+    "note": "Original link discovered in a directory; post or full video not independently reviewed."
+  },
+  {
+    "id": "x-2100362415187833048",
+    "title": "Jev for security engineering",
+    "url": "https://x.com/Kostastsale/status/2100362415187833048",
+    "platform": "x",
+    "discovered_via": "https://madewithjev.com/",
+    "checked_at": "2026-09-19",
+    "verification": "discovery-only",
+    "note": "Original link discovered in a directory; post or full video not independently reviewed."
+  },
+  {
+    "id": "x-2100877682972258619",
+    "title": "Jev as a reranker: an honest negative",
+    "url": "https://x.com/GoSailGlobal/status/2100877682972258619",
+    "platform": "x",
+    "discovered_via": "https://madewithjev.com/",
+    "checked_at": "2026-09-19",
+    "verification": "discovery-only",
+    "note": "Original link discovered in a directory; post or full video not independently reviewed."
+  },
+  {
+    "id": "x-2100876273061102006",
+    "title": "Day-one notes from a skeptic, in Chinese",
+    "url": "https://x.com/jiayuan_jy/status/2100876273061102006",
+    "platform": "x",
+    "discovered_via": "https://madewithjev.com/",
+    "checked_at": "2026-09-19",
+    "verification": "discovery-only",
+    "note": "Original link discovered in a directory; post or full video not independently reviewed."
+  },
+  {
+    "id": "youtube-o1CogAtWdBk",
+    "title": "JEV: How It Works and What You Can Build",
+    "url": "https://www.youtube.com/watch?v=o1CogAtWdBk",
+    "platform": "youtube",
+    "discovered_via": "https://chooseto.ai/watch/o1CogAtWdBk",
+    "checked_at": "2026-09-19",
+    "verification": "discovery-only",
+    "note": "Original video link found through search; YouTube requests timed out. Video not watched; secondary technical claims not adopted."
+  },
+  {
+    "id": "youtube-CcmqPS6q9Gw",
+    "title": "I tried TypeSafe’s System One Model: Jev",
+    "url": "https://www.youtube.com/watch?v=CcmqPS6q9Gw",
+    "platform": "youtube",
+    "discovered_via": "https://learningatlas.us/learning/video/CcmqPS6q9Gw",
+    "checked_at": "2026-09-19",
+    "verification": "discovery-only",
+    "note": "Original video link found through search; YouTube requests timed out. Video not watched; secondary technical claims not adopted."
+  }
+]

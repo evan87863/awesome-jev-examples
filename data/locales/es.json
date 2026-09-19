@@ -1,0 +1,362 @@
+{
+  "typesafe-ai--typesafe-sdk-python": {
+    "title": "SDK oficial de Python",
+    "summary": "Cliente oficial de Python con un ejemplo mínimo de clasificación de tickets.",
+    "limitations": "Es un recurso de integración, no una aplicación independiente."
+  },
+  "abovecolin--ha-jev": {
+    "title": "Jev for Home Assistant",
+    "summary": "Evalúa el estado del hogar y devuelve valores para automatizaciones de Home Assistant.",
+    "limitations": "Requiere Home Assistant; no probamos dispositivos físicos."
+  },
+  "itsmostafa--typesafe-mcp": {
+    "title": "Typesafe MCP",
+    "summary": "Ofrece decisiones tipadas de Jev a asistentes de programación mediante MCP.",
+    "limitations": "Requiere configurar el cliente y una clave de API."
+  },
+  "jkudish--jev-mcp": {
+    "title": "Jev MCP (jkudish)",
+    "summary": "Herramientas MCP de verificación, filtrado, reclasificación y revisión de código.",
+    "limitations": "Las herramientas e interfaces pueden cambiar entre versiones."
+  },
+  "tamaratran--fast-jev-compaction": {
+    "title": "fast-jev-compaction",
+    "summary": "Puntúa llamadas y resultados de herramientas, recorta contenido obsoleto y conserva el texto restante.",
+    "limitations": "El contexto descartado puede seguir siendo útil; hay que evaluar las tareas posteriores."
+  },
+  "0xnatoshi--jev-codex-router": {
+    "title": "Jev Codex Router",
+    "summary": "Elige el modelo y la profundidad de razonamiento de cada turno mediante Jev.",
+    "limitations": "Requiere Codex Router; no reprodujimos el ahorro declarado por el autor."
+  },
+  "thruwire--foreman": {
+    "title": "Foreman",
+    "summary": "Evalúa si el trabajo está completo, suficientemente probado o necesita intervención humana.",
+    "limitations": "Declarar una tarea completa no verifica de forma independiente su corrección."
+  },
+  "ghalebdweikat--winnow": {
+    "title": "Winnow",
+    "summary": "Filtra salidas extensas antes de incluirlas en el contexto y permite recuperar el texto oculto.",
+    "limitations": "Jev evalúa la relevancia; los resúmenes también usan otro modelo."
+  },
+  "devagrawal09--jev-review": {
+    "title": "Jev Review (devagrawal09)",
+    "summary": "Revisa cambios o repositorios por etapas: riesgos, selección de pruebas y gravedad.",
+    "limitations": "Las señales estructuradas de revisión no sustituyen las pruebas."
+  },
+  "niazmorshed2007--jev-review": {
+    "title": "Jev Review MCP",
+    "summary": "Un servidor MCP local ofrece puntuaciones continuas de calidad a agentes de programación.",
+    "limitations": "El agente realiza las correcciones; la puntuación no demuestra que el código sea correcto."
+  },
+  "noelzappy--tripwire": {
+    "title": "Tripwire",
+    "summary": "Comprueba respuestas antes de entregarlas, mediante middleware, proxy y políticas configurables.",
+    "limitations": "No verificamos la latencia; deben medirse los falsos positivos y las omisiones."
+  },
+  "rashedint32--jev-gates": {
+    "title": "jev-gates",
+    "summary": "Comprueba reglas, alcance y afirmaciones de finalización; eleva los casos que requieren revisión.",
+    "limitations": "Estas barreras solicitan revisión, nunca autorizan; no son un sistema de permisos."
+  },
+  "devmortimer--pi-warden": {
+    "title": "pi-warden",
+    "summary": "Revisa cambios y herramientas frente a reglas, bucles de reintentos y pruebas de finalización.",
+    "limitations": "Integración para un agente concreto; las mediciones del autor no son resultados generales."
+  },
+  "gargpratyush--jev-router": {
+    "title": "jev-router",
+    "summary": "Dirige cada nuevo turno de Claude Code o Codex al nivel de modelo adecuado.",
+    "limitations": "Depende del CLI original y de su configuración de autenticación."
+  },
+  "andrelandgraf--safer-with-jev": {
+    "title": "Safer with Jev",
+    "summary": "Muestra evaluaciones de contenido combinadas con reenvío opcional de solicitudes HTTPS.",
+    "limitations": "El servicio y el código evolucionan por separado; no probamos el reenvío."
+  },
+  "m0rphtail--triagedy": {
+    "title": "Triagedy",
+    "summary": "Convierte alertas de seguridad JSONL en decisiones tipadas dentro de una tubería Unix.",
+    "limitations": "Hay que evaluar el tratamiento de alertas con datos propios etiquetados."
+  },
+  "mrnugget--jev-shell-history": {
+    "title": "jev-shell-history",
+    "summary": "Ordena comandos existentes del historial de zsh según lo que se está escribiendo.",
+    "limitations": "El historial se envía como contexto; la demostración usa un historial ficticio."
+  },
+  "markjaquith--typesafe-ai-playground": {
+    "title": "TypeSafe AI Playground (Rust CLI)",
+    "summary": "Experimentos en un CLI de Rust: detección de datos privados, revisión de comentarios, tono y clasificación.",
+    "limitations": "La detección de datos privados es experimental, no una certificación de cumplimiento."
+  },
+  "browser-use--jev-ultrafast": {
+    "title": "Jev Ultrafast",
+    "summary": "Elige conjuntamente una acción del navegador y su destino en una tabla dinámica de elementos.",
+    "limitations": "Un LLM pequeño genera el texto libre; la demo busca vuelos, pero no reserva."
+  },
+  "awlevin--typesafe-computer-use": {
+    "title": "typesafe-computer-use",
+    "summary": "Lee la interfaz del Mac con OCR y accesibilidad; Jev elige la acción siguiente.",
+    "limitations": "Requiere permisos del sistema; parte del texto libre usa otro modelo."
+  },
+  "jkudish--jev-browser": {
+    "title": "Jev Browser",
+    "summary": "Controla un navegador mediante biblioteca, CLI o MCP, con límites, recuperación y trazas.",
+    "limitations": "Opera un navegador real; aquí solo revisamos la documentación del proyecto."
+  },
+  "droidrun--mobile-jev": {
+    "title": "Mobile Jev",
+    "summary": "Selecciona acciones en un Android de Mobilerun a partir del estado de la interfaz.",
+    "limitations": "La demo de Uber llega a elegir el pago; no muestra una reserva completada."
+  },
+  "realzachi--pg-jev": {
+    "title": "pg-jev",
+    "summary": "Extensión de PostgreSQL para filtrar, ordenar y clasificar filas con condiciones en lenguaje natural.",
+    "limitations": "Requiere una extensión y llamadas de API; no la instalamos en una base local."
+  },
+  "kylemclaren--jevql": {
+    "title": "jevQL",
+    "summary": "Añade evaluaciones de Jev en el cliente a consultas sobre PostgreSQL estándar.",
+    "limitations": "La base ejecuta consultas normales; la evaluación semántica ocurre fuera de ella."
+  },
+  "colliber--duckdb-jev": {
+    "title": "duckdb-jev",
+    "summary": "Devuelve decisiones tipadas sobre tablas o Parquet desde consultas DuckDB.",
+    "limitations": "Requiere una extensión y credenciales; no ejecutamos las consultas de ejemplo."
+  },
+  "reachjalil--jevlogs": {
+    "title": "Jev Logs",
+    "summary": "Puntúa registros de OpenTelemetry antes de derivarlos a un análisis más costoso.",
+    "limitations": "Está en fase preliminar; los registros inciertos y los fallos del proveedor deben conservarse para análisis."
+  },
+  "jexp--neo4jev": {
+    "title": "neo4jev",
+    "summary": "Elige la siguiente relación del grafo y comprueba si se alcanzó la meta en una misma llamada.",
+    "limitations": "Requiere Neo4j; las puntuaciones de ruta no equivalen a precisión de las respuestas."
+  },
+  "kitze--unclutter": {
+    "title": "Unclutter",
+    "summary": "Detecta elementos superfluos de páginas y reutiliza reglas de plantilla en una extensión.",
+    "limitations": "Puede ocultar contenido útil; no instalamos la extensión."
+  },
+  "realzachi--typesafe-adblock": {
+    "title": "TypeSafe Fun AdBlocker",
+    "summary": "Clasifica elementos del DOM como anuncios y los elimina mediante código del navegador.",
+    "limitations": "El autor lo presenta como una demo lúdica, no como protección completa contra anuncios o rastreo."
+  },
+  "brainstormity--jev-moderation-bot": {
+    "title": "Jev Moderation Bot",
+    "summary": "Modera spam y enlaces fraudulentos en Discord con medidas progresivas.",
+    "limitations": "Puede borrar mensajes y sancionar usuarios; no conectamos Discord ni evaluamos errores."
+  },
+  "chetaslua--jevmeter": {
+    "title": "JEVMETER",
+    "summary": "Puntúa cada frase de una transcripción y muestra los resultados como un medidor en el vídeo.",
+    "limitations": "El autor aclara que las puntuaciones no son conclusiones de verificación de hechos."
+  },
+  "abhixhek--jevcal": {
+    "title": "jevcal",
+    "summary": "Elige umbrales de confianza con datos propios y detecta cambios tras actualizar el modelo.",
+    "limitations": "La demo incluida usa un simulador, no mediciones reales de la API."
+  },
+  "firassx914--janus": {
+    "title": "Janus",
+    "summary": "Mide cuándo derivar tareas entre modelos pequeños y grandes, y cuándo no conviene hacerlo.",
+    "limitations": "Los registros sin etiquetas miden concordancia, no precisión frente a respuestas correctas."
+  },
+  "abdelstark--jev-benchmarks": {
+    "title": "jev-benchmarks",
+    "summary": "Evalúa calibración de probabilidades, cobertura de automatización, latencia y consumo.",
+    "limitations": "Los resultados dependen de datos, versiones y diseño de evaluación; no los repetimos."
+  },
+  "iammrduncan--typesafe-ai-benchmark": {
+    "title": "typesafe-ai-benchmark",
+    "summary": "Compara la salida estructurada de un LLM con Jev en las mismas tareas.",
+    "limitations": "Incluye cargas sintéticas; los resultados no se trasladan directamente a producción."
+  },
+  "emrickgarrett--onevonejev": {
+    "title": "1v1 Jev",
+    "summary": "Una arena en el navegador usa Jev para elegir las acciones de un personaje.",
+    "limitations": "Incluye alternativas heurísticas; no todo el comportamiento procede de Jev."
+  },
+  "fhshaik--typesafe-mario": {
+    "title": "TypeSafe Mario",
+    "summary": "Convierte RAM y telemetría del emulador en estado para elegir controles de NES.",
+    "limitations": "Es un controlador experimental; Jev no recibe capturas de pantalla."
+  },
+  "phyous--tsai-sc": {
+    "title": "Jev Plays StarCraft",
+    "summary": "Controla una misión de StarCraft shareware desde estado estructurado y registra probabilidades.",
+    "limitations": "Completar una misión concreta no demuestra capacidad general para jugar."
+  },
+  "ably-labs--jev-pong": {
+    "title": "Jev Pong",
+    "summary": "Avanza la pelota de Pong un paso por decisión para visualizar la latencia.",
+    "limitations": "La velocidad depende de la duración de las llamadas; no es una prueba de habilidad con reloj fijo."
+  },
+  "romanslack--jev-drone": {
+    "title": "jev-drone",
+    "summary": "Usa Jev para interpretar situaciones en una simulación de dron; el código se encarga del control rápido.",
+    "limitations": "Jev no ve imágenes directamente; primero se convierten en datos estructurados."
+  },
+  "denikuchero--jev-chess-lab": {
+    "title": "Jev Chess Lab",
+    "summary": "Experimentos de ajedrez comparan Jev solo, filtros tácticos y ayuda de Stockfish.",
+    "limitations": "El autor indica que Jev solo sigue perdiendo piezas; las repeticiones no son grabaciones en tiempo real."
+  },
+  "socai-io--jev-social": {
+    "title": "Jev for Social Media",
+    "summary": "Jev elige operaciones de redes sociales y socai las ejecuta en el navegador.",
+    "limitations": "El vídeo antiguo muestra una versión de solo enrutamiento, no el flujo actual completo."
+  },
+  "monteduro--killmyidea": {
+    "title": "Kill My Idea",
+    "summary": "Evalúa una idea de negocio con preguntas paralelas y combina puntuaciones en un veredicto fijo.",
+    "limitations": "No predice el éxito comercial; las evaluaciones se archivan por defecto."
+  },
+  "teyhouse--jev-secret-detection": {
+    "title": "jev-secret-detection",
+    "summary": "Usa una pregunta Noul para evaluar si fragmentos de código contienen credenciales utilizables.",
+    "limitations": "Omite deliberadamente expresiones regulares y verificación del proveedor; no es un escáner completo."
+  },
+  "blakestone-x--jev-mcp": {
+    "title": "Jev MCP (blakestone-x)",
+    "summary": "Herramientas MCP y ejemplos para clasificar, puntuar, comparar y filtrar.",
+    "limitations": "Varios elementos en un mismo estado no reciben automáticamente clasificaciones individuales."
+  },
+  "code-forge-au--jev-llm": {
+    "title": "jev-llm",
+    "summary": "Experimenta con generación de texto eligiendo repetidamente la siguiente palabra entre candidatos.",
+    "limitations": "Cada paso sigue siendo una elección limitada; no es generación libre nativa de Jev."
+  },
+  "rtrvr-browser-benchmark": {
+    "title": "Retriever AI: evaluación de un agente de navegador",
+    "summary": "Informe del equipo sobre selección de acciones con Jev y planificación con GLM: más rapidez y mayor coste total.",
+    "limitations": "Una ejecución por tarea y configuración, con páginas y planes distintos; sin reproducción independiente."
+  },
+  "official-quickstart": {
+    "title": "Inicio rápido",
+    "summary": "Crea una primera solicitud tipada en el Playground o con el SDK.",
+    "limitations": "Ejemplo oficial o resultado del autor; aquí no se reprodujo mediante la API."
+  },
+  "official-fan-out": {
+    "title": "Evaluación especulativa en paralelo",
+    "summary": "Pregunta por varias ramas a la vez y selecciona las respuestas pertinentes mediante código.",
+    "limitations": "Ejemplo oficial o resultado del autor; aquí no se reprodujo mediante la API."
+  },
+  "official-confidence-routing": {
+    "title": "Enrutamiento según confianza",
+    "summary": "Separa la respuesta de la decisión de actuar y mide umbrales con datos propios.",
+    "limitations": "Ejemplo oficial o resultado del autor; aquí no se reprodujo mediante la API."
+  },
+  "official-composite-scoring": {
+    "title": "Puntuación compuesta",
+    "summary": "Evalúa dimensiones independientes y combínalas con pesos explícitos en el código.",
+    "limitations": "Ejemplo oficial o resultado del autor; aquí no se reprodujo mediante la API."
+  },
+  "official-intent-routing": {
+    "title": "Enrutamiento por intención",
+    "summary": "Clasifica solicitudes y dirígelas a reglas, modelos especializados o una persona.",
+    "limitations": "Ejemplo oficial o resultado del autor; aquí no se reprodujo mediante la API. La descarga quedó incompleta; solo se revisaron el título, la introducción y el índice oficial."
+  },
+  "official-smart-home": {
+    "title": "Asistente doméstico",
+    "summary": "Evalúa solicitudes de control del hogar con varias preguntas en una misma llamada.",
+    "limitations": "Ejemplo oficial o resultado del autor; aquí no se reprodujo mediante la API."
+  },
+  "official-jev-1-13": {
+    "title": "Limitaciones conocidas de Jev 1.13",
+    "summary": "Consulta debilidades y fallos documentados para esta versión concreta.",
+    "limitations": "Ejemplo oficial o resultado del autor; aquí no se reprodujo mediante la API. Las limitaciones corresponden a esta versión; vuelve a evaluar tras actualizar."
+  },
+  "official-consistency-noul-cookbook": {
+    "title": "Consistencia de Noul",
+    "summary": "Repite evaluaciones de reclamaciones para estudiar estabilidad e incertidumbre, no veracidad.",
+    "limitations": "Ejemplo oficial o resultado del autor; aquí no se reprodujo mediante la API. La descarga quedó incompleta; solo se revisaron el título, la introducción y el índice oficial."
+  },
+  "official-consistency-choice-cookbook": {
+    "title": "Consistencia de Choice",
+    "summary": "Añade una opción incierta a la moderación y compara concordancia y cobertura automática.",
+    "limitations": "Ejemplo oficial o resultado del autor; aquí no se reprodujo mediante la API."
+  },
+  "official-parallel-questions": {
+    "title": "Preguntas en paralelo",
+    "summary": "Compara solicitudes agrupadas y separadas para varias preguntas sobre un documento.",
+    "limitations": "Ejemplo oficial o resultado del autor; aquí no se reprodujo mediante la API."
+  },
+  "official-rerank-typesafe": {
+    "title": "Reordenación de resultados",
+    "summary": "Reduce candidatos con BM25 y puntúa pares de consulta y pasaje; el ejemplo usa documentos jurídicos.",
+    "limitations": "Ejemplo oficial o resultado del autor; aquí no se reprodujo mediante la API. Los resultados jurídicos no establecen el rendimiento en cualquier corpus."
+  },
+  "official-semantic-find": {
+    "title": "Búsqueda semántica por líneas",
+    "summary": "Selecciona líneas relevantes y comprueba por separado si existe una respuesta.",
+    "limitations": "Ejemplo oficial o resultado del autor; aquí no se reprodujo mediante la API."
+  },
+  "official-autoformat": {
+    "title": "Recuperación de estructura",
+    "summary": "Clasifica saltos de línea, títulos, listas y bloques de código para reconstruir Markdown.",
+    "limitations": "Ejemplo oficial o resultado del autor; aquí no se reprodujo mediante la API."
+  },
+  "official-function-calling": {
+    "title": "Llamadas a funciones con opciones limitadas",
+    "summary": "Convierte nombres de funciones y argumentos finitos en decisiones tipadas.",
+    "limitations": "Ejemplo oficial o resultado del autor; aquí no se reprodujo mediante la API."
+  },
+  "official-skill-suggestion": {
+    "title": "Selección de habilidades",
+    "summary": "Ordena habilidades, examina una lista reducida y permite rechazar todos los candidatos.",
+    "limitations": "Ejemplo oficial o resultado del autor; aquí no se reprodujo mediante la API."
+  },
+  "official-entity-alignment": {
+    "title": "Correspondencia de entidades",
+    "summary": "Decide si dos entidades deben fusionarse, mantenerse separadas o pasar a revisión humana.",
+    "limitations": "Ejemplo oficial o resultado del autor; aquí no se reprodujo mediante la API."
+  },
+  "official-classifying-rag-passages": {
+    "title": "Clasificación de pasajes RAG",
+    "summary": "Comprueba relevancia, contradicciones e instrucciones inyectadas antes de generar la respuesta.",
+    "limitations": "Ejemplo oficial o resultado del autor; aquí no se reprodujo mediante la API."
+  },
+  "official-citation-check": {
+    "title": "Comprobación de citas",
+    "summary": "Verifica que exista la cita y después evalúa si su contexto respalda la afirmación.",
+    "limitations": "Ejemplo oficial o resultado del autor; aquí no se reprodujo mediante la API."
+  },
+  "official-llm-guardrails": {
+    "title": "Controles de entrada y salida del LLM",
+    "summary": "Usa preguntas de riesgo y gravedad para aceptar, revisar o bloquear contenido.",
+    "limitations": "Ejemplo oficial o resultado del autor; aquí no se reprodujo mediante la API. Una evaluación del modelo no es una barrera de seguridad infranqueable."
+  },
+  "official-sde-cascade": {
+    "title": "Extracción estructurada en cascada",
+    "summary": "Extrae con un modelo pequeño, verifica campos con Jev y recurre a otro modelo cuando sea necesario.",
+    "limitations": "Ejemplo oficial o resultado del autor; aquí no se reprodujo mediante la API."
+  },
+  "official-date-extraction-cookbook": {
+    "title": "Extracción de fechas",
+    "summary": "Selecciona componentes de fechas; el código realiza los cálculos y la validación.",
+    "limitations": "Ejemplo oficial o resultado del autor; aquí no se reprodujo mediante la API."
+  },
+  "official-pre-parsed-value-extraction-cookbook": {
+    "title": "Extracción entre valores candidatos",
+    "summary": "Encuentra candidatos con expresiones regulares, elige con Jev y copia el fragmento original.",
+    "limitations": "Ejemplo oficial o resultado del autor; aquí no se reprodujo mediante la API. Copiar un valor original evita inventarlo, pero aún puede elegirse el incorrecto."
+  },
+  "official-hierarchical-classification": {
+    "title": "Clasificación jerárquica",
+    "summary": "Recorre árboles de etiquetas con probabilidades y observa errores en ramas y hojas.",
+    "limitations": "Ejemplo oficial o resultado del autor; aquí no se reprodujo mediante la API."
+  },
+  "official-autoresearch-feature-discovery": {
+    "title": "Descubrimiento automático de variables",
+    "summary": "Un LLM propone preguntas, Jev genera variables numéricas y CatBoost aporta errores para iterar.",
+    "limitations": "Ejemplo oficial o resultado del autor; aquí no se reprodujo mediante la API. Usa datos etiquetados y separa entrenamiento y evaluación."
+  },
+  "official-classification-using-confidence": {
+    "title": "Clasificación con etiquetas más generales",
+    "summary": "Clasifica informes anuales por sector y usa una categoría más amplia cuando la confianza es baja.",
+    "limitations": "Ejemplo oficial o resultado del autor; aquí no se reprodujo mediante la API."
+  }
+}

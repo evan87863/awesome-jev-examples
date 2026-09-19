@@ -1,0 +1,362 @@
+{
+  "typesafe-ai--typesafe-sdk-python": {
+    "title": "官方 Python SDK",
+    "summary": "用官方客户端完成工单分类等最小调用。",
+    "limitations": "是接入资源，不是独立应用案例。"
+  },
+  "abovecolin--ha-jev": {
+    "title": "Jev for Home Assistant",
+    "summary": "把家庭状态交给 Jev 判断，返回可用于自动化的数值结果。",
+    "limitations": "需要 Home Assistant 环境；本仓库未接入真实设备。"
+  },
+  "itsmostafa--typesafe-mcp": {
+    "title": "Typesafe MCP",
+    "summary": "通过 MCP 把 Jev 的结构化判断提供给编码助手。",
+    "limitations": "需要自行配置客户端与 API key。"
+  },
+  "jkudish--jev-mcp": {
+    "title": "Jev MCP（jkudish）",
+    "summary": "提供验证、筛选、重排、分类、审查等判断工具。",
+    "limitations": "工具数量与接口可能随版本变化。"
+  },
+  "tamaratran--fast-jev-compaction": {
+    "title": "fast-jev-compaction",
+    "summary": "对工具调用和结果评分，删除或截短过时内容，保留其余原文。",
+    "limitations": "删掉的上下文可能仍然重要；需评估后续任务成功率。"
+  },
+  "0xnatoshi--jev-codex-router": {
+    "title": "Jev Codex Router",
+    "summary": "按对话轮次判断任务需求并选择模型与思考深度。",
+    "limitations": "依赖已有 Codex Router；节省比例是作者测量，未复现。"
+  },
+  "thruwire--foreman": {
+    "title": "Foreman",
+    "summary": "使用 Jev 评估编码工作是否完成、测试是否充分及是否需要人工输入。",
+    "limitations": "判断完成不等于独立验证代码正确。"
+  },
+  "ghalebdweikat--winnow": {
+    "title": "Winnow",
+    "summary": "在大块工具结果进入上下文前筛选内容，保留恢复原文的入口。",
+    "limitations": "默认判断器是 Jev，摘要还涉及其他模型。"
+  },
+  "devagrawal09--jev-review": {
+    "title": "Jev Review（devagrawal09）",
+    "summary": "分阶段评估 diff 或代码库，选择证据、归类问题并评分。",
+    "limitations": "结构化审查信号不能替代测试。"
+  },
+  "niazmorshed2007--jev-review": {
+    "title": "Jev Review MCP",
+    "summary": "本地 MCP 服务为编码助手提供持续的软件质量评分。",
+    "limitations": "修复仍由编码助手完成；评分不是正确性证明。"
+  },
+  "noelzappy--tripwire": {
+    "title": "Tripwire",
+    "summary": "在模型响应到达用户前检查内容，支持中间件与代理。",
+    "limitations": "作者延迟数字未复测；需要评估误拦截与漏检。"
+  },
+  "rashedint32--jev-gates": {
+    "title": "jev-gates",
+    "summary": "为编码流程检查规则、范围、完成声明等条件。",
+    "limitations": "项目强调只升级、不批准；不应当作权限系统。"
+  },
+  "devmortimer--pi-warden": {
+    "title": "pi-warden",
+    "summary": "在编辑和工具调用过程中检查规则、重试循环及完成声明。",
+    "limitations": "属于特定 agent 的集成，作者测量不代表通用效果。"
+  },
+  "gargpratyush--jev-router": {
+    "title": "jev-router",
+    "summary": "为 Claude Code 与 Codex 的新一轮任务选择执行模型。",
+    "limitations": "仍依赖原有 CLI 与其认证环境。"
+  },
+  "andrelandgraf--safer-with-jev": {
+    "title": "Safer with Jev",
+    "summary": "展示内容判断与可选请求转发的组合。",
+    "limitations": "在线服务与源码分别维护，未测试转发行为。"
+  },
+  "m0rphtail--triagedy": {
+    "title": "Triagedy",
+    "summary": "把 JSONL 安全告警转成结构化分诊结果。",
+    "limitations": "告警处置效果需要用自身标注集验证。"
+  },
+  "mrnugget--jev-shell-history": {
+    "title": "jev-shell-history",
+    "summary": "根据正在输入的内容为 zsh 历史命令排序。",
+    "limitations": "历史记录会作为判断上下文；演示使用虚构历史。"
+  },
+  "markjaquith--typesafe-ai-playground": {
+    "title": "TypeSafe AI Playground（Rust CLI）",
+    "summary": "集合隐私信息检测、注释审查、语气及业务分类实验。",
+    "limitations": "隐私检测属于实验，不代表合规认证。"
+  },
+  "browser-use--jev-ultrafast": {
+    "title": "Jev Ultrafast",
+    "summary": "从动态页面元素表中同时选择操作和目标元素。",
+    "limitations": "自由文本由小型 LLM 生成；航班演示只搜索，不购票。"
+  },
+  "awlevin--typesafe-computer-use": {
+    "title": "typesafe-computer-use",
+    "summary": "用 OCR 与辅助功能提取 Mac 界面状态，再由 Jev 选择动作。",
+    "limitations": "需要系统权限，部分自由文本仍调用写作模型。"
+  },
+  "jkudish--jev-browser": {
+    "title": "Jev Browser",
+    "summary": "通过库、CLI 或 MCP 控制浏览器，并记录逐步决策。",
+    "limitations": "涉及真实浏览器操作；本次只核对项目说明。"
+  },
+  "droidrun--mobile-jev": {
+    "title": "Mobile Jev",
+    "summary": "在 Mobilerun Android 设备上依据界面状态选择动作。",
+    "limitations": "Uber 演示到支付选择为止，未展示完成下单。"
+  },
+  "realzachi--pg-jev": {
+    "title": "pg-jev",
+    "summary": "PostgreSQL 扩展以自然语言条件筛选、排序和分类行。",
+    "limitations": "需额外扩展与 API 调用；没有在本地数据库安装。"
+  },
+  "kylemclaren--jevql": {
+    "title": "jevQL",
+    "summary": "在客户端为普通 PostgreSQL 查询补充 Jev 判断。",
+    "limitations": "数据库执行普通查询，语义计算在外部完成。"
+  },
+  "colliber--duckdb-jev": {
+    "title": "duckdb-jev",
+    "summary": "在 DuckDB 查询中为表或 Parquet 数据返回类型化判断。",
+    "limitations": "需要扩展与凭据，未运行示例查询。"
+  },
+  "reachjalil--jevlogs": {
+    "title": "Jev Logs",
+    "summary": "给 OpenTelemetry 日志评分，再决定是否进入昂贵分析分支。",
+    "limitations": "项目处于预览期；供应商失败与不确定记录应保留。"
+  },
+  "jexp--neo4jev": {
+    "title": "neo4jev",
+    "summary": "对图中相邻关系做 Choice 判断，同时检查是否到达目标。",
+    "limitations": "需要 Neo4j；路径分数不等同于答案正确率。"
+  },
+  "kitze--unclutter": {
+    "title": "Unclutter",
+    "summary": "浏览器扩展使用 Jev 识别页面杂乱内容并复用模板规则。",
+    "limitations": "可能误隐藏页面内容；未安装扩展。"
+  },
+  "realzachi--typesafe-adblock": {
+    "title": "TypeSafe Fun AdBlocker",
+    "summary": "判断 DOM 元素是否像广告，并由浏览器代码移除。",
+    "limitations": "作者明确是趣味演示，不是完整广告或跟踪防护工具。"
+  },
+  "brainstormity--jev-moderation-bot": {
+    "title": "Jev Moderation Bot",
+    "summary": "Discord 机器人判断垃圾信息与诈骗链接并执行分级处理。",
+    "limitations": "有自动删除与处罚行为；未连接 Discord 或验证误判率。"
+  },
+  "chetaslua--jevmeter": {
+    "title": "JEVMETER",
+    "summary": "对视频转录逐句提问，再把结果渲染成视频仪表。",
+    "limitations": "作者明确这些分数不是事实核查结论。"
+  },
+  "abhixhek--jevcal": {
+    "title": "jevcal",
+    "summary": "用自己的数据选择置信度阈值并检测模型变化。",
+    "limitations": "内置演示使用模拟器，不能当作实测 API 结果。"
+  },
+  "firassx914--janus": {
+    "title": "Janus",
+    "summary": "测量小模型与大模型的分流阈值，允许得出不应分流的结论。",
+    "limitations": "无标签日志只能测一致性，不能测真实准确率。"
+  },
+  "abdelstark--jev-benchmarks": {
+    "title": "jev-benchmarks",
+    "summary": "评估结构化模型的概率校准、自动化覆盖率和资源消耗。",
+    "limitations": "结果依赖数据集、版本及评测设计，未复跑。"
+  },
+  "iammrduncan--typesafe-ai-benchmark": {
+    "title": "typesafe-ai-benchmark",
+    "summary": "在相同应用任务上比较 LLM 结构化输出与 Jev。",
+    "limitations": "包含合成工作负载，不能直接外推生产任务。"
+  },
+  "emrickgarrett--onevonejev": {
+    "title": "1v1 Jev",
+    "summary": "浏览器对战游戏以 Jev 决定角色行动。",
+    "limitations": "包含启发式兜底，不宜把全部表现归因于 Jev。"
+  },
+  "fhshaik--typesafe-mario": {
+    "title": "TypeSafe Mario",
+    "summary": "把模拟器 RAM 与遥测转成结构化状态，由 Jev 选择手柄输入。",
+    "limitations": "不向 Jev 发送截图；是实验性控制器。"
+  },
+  "phyous--tsai-sc": {
+    "title": "Jev Plays StarCraft",
+    "summary": "用结构化游戏状态驱动星际争霸试玩任务，保存动作概率。",
+    "limitations": "作者记录一次特定任务完成，不代表普遍游戏能力。"
+  },
+  "ably-labs--jev-pong": {
+    "title": "Jev Pong",
+    "summary": "Pong 球每得到一次模型决策前进一步，以可视化模型等待。",
+    "limitations": "球速依赖调用时间，不是统一时钟下的竞技能力评测。"
+  },
+  "romanslack--jev-drone": {
+    "title": "jev-drone",
+    "summary": "MuJoCo 无人机仿真中让 Jev 判断局面，普通代码执行实时控制。",
+    "limitations": "Jev 本身不看图像；项目先把感知转成结构化输入。"
+  },
+  "denikuchero--jev-chess-lab": {
+    "title": "Jev Chess Lab",
+    "summary": "记录独立下棋、战术筛选及 Stockfish 辅助等不同实验。",
+    "limitations": "作者报告独立 Jev 仍会丢子；回放并非实时录像。"
+  },
+  "socai-io--jev-social": {
+    "title": "Jev for Social Media",
+    "summary": "由 Jev 选择搜索、打开帖子等操作，socai 在浏览器执行。",
+    "limitations": "旧录像展示的是早期路由版本，不能代表当前完整流程。"
+  },
+  "monteduro--killmyidea": {
+    "title": "Kill My Idea",
+    "summary": "并行提出多个问题，将创业点子评分组合成固定结论。",
+    "limitations": "评分不是商业成败预测；作者默认归档评估结果。"
+  },
+  "teyhouse--jev-secret-detection": {
+    "title": "jev-secret-detection",
+    "summary": "对代码片段提出 Noul 问题，评估是否含真实凭据。",
+    "limitations": "项目刻意不做正则和供应商验证，不能视作完整凭据扫描器。"
+  },
+  "blakestone-x--jev-mcp": {
+    "title": "Jev MCP（blakestone-x）",
+    "summary": "为 agent 提供分类、评分、匹配和筛选工具及请求模板。",
+    "limitations": "批量输入不天然等于每条分别分类，应核对问题作用域。"
+  },
+  "code-forge-au--jev-llm": {
+    "title": "jev-llm",
+    "summary": "循环从词表选择下一个词，把决策模型组成文字生成实验。",
+    "limitations": "不代表 Jev 原生生成自由文本；每步仍是候选选择。"
+  },
+  "official-quickstart": {
+    "title": "快速开始",
+    "summary": "在 Playground 和 SDK 中构建第一个类型化判断。",
+    "limitations": "官方示例与作者结果；本仓库未调用 API 复现。"
+  },
+  "official-fan-out": {
+    "title": "并行预测多个分支",
+    "summary": "把同一状态下可能需要的问题一次发送，再由代码选择适用答案。",
+    "limitations": "官方示例与作者结果；本仓库未调用 API 复现。"
+  },
+  "official-confidence-routing": {
+    "title": "基于置信度分流",
+    "summary": "把决策结果和是否自动执行分开，低把握时升级处理。",
+    "limitations": "官方示例与作者结果；本仓库未调用 API 复现。"
+  },
+  "official-composite-scoring": {
+    "title": "组合评分",
+    "summary": "拆开复杂评估的不同维度，再用代码组合。",
+    "limitations": "官方示例与作者结果；本仓库未调用 API 复现。"
+  },
+  "official-intent-routing": {
+    "title": "意图路由",
+    "summary": "将输入分类后转给规则、专用模型或人工。",
+    "limitations": "官方示例与作者结果；本仓库未调用 API 复现。本次正文传输不完整，已核对标题、导语与官方目录。"
+  },
+  "official-smart-home": {
+    "title": "智能家居助手",
+    "summary": "用同一请求评估用户的家庭控制意图。",
+    "limitations": "官方示例与作者结果；本仓库未调用 API 复现。"
+  },
+  "official-jev-1-13": {
+    "title": "Jev 1.13 已知局限",
+    "summary": "查看官方公开的模型弱项和失败模式。",
+    "limitations": "官方示例与作者结果；本仓库未调用 API 复现。"
+  },
+  "official-consistency-noul-cookbook": {
+    "title": "Noul 一致性",
+    "summary": "重复评估保险理赔相关判断，观察不确定答案的稳定性。",
+    "limitations": "官方示例与作者结果；本仓库未调用 API 复现。本次正文传输不完整，已核对标题、导语与官方目录。"
+  },
+  "official-consistency-choice-cookbook": {
+    "title": "Choice 一致性",
+    "summary": "为内容审核加入不确定结果，比较标签稳定性和自动处理比例。",
+    "limitations": "官方示例与作者结果；本仓库未调用 API 复现。"
+  },
+  "official-parallel-questions": {
+    "title": "并行问题批处理",
+    "summary": "对同一文档的多个问题比较合并与分开请求。",
+    "limitations": "官方示例与作者结果；本仓库未调用 API 复现。"
+  },
+  "official-rerank-typesafe": {
+    "title": "检索重排",
+    "summary": "先用 BM25 缩小候选，再对查询与段落关系打分。",
+    "limitations": "官方示例与作者结果；本仓库未调用 API 复现。"
+  },
+  "official-semantic-find": {
+    "title": "逐行语义搜索",
+    "summary": "在文档行号候选中选择相关位置，并检查是否存在答案。",
+    "limitations": "官方示例与作者结果；本仓库未调用 API 复现。"
+  },
+  "official-autoformat": {
+    "title": "恢复文档结构",
+    "summary": "判断换行、标题、列表及代码块，重建丢失的 Markdown 结构。",
+    "limitations": "官方示例与作者结果；本仓库未调用 API 复现。"
+  },
+  "official-function-calling": {
+    "title": "受限函数调用",
+    "summary": "把函数名和有限参数选项变成结构化决策。",
+    "limitations": "官方示例与作者结果；本仓库未调用 API 复现。"
+  },
+  "official-skill-suggestion": {
+    "title": "Agent 技能选择",
+    "summary": "先筛选技能候选，再读取少量技能细节并允许全部拒绝。",
+    "limitations": "官方示例与作者结果；本仓库未调用 API 复现。"
+  },
+  "official-entity-alignment": {
+    "title": "知识图谱实体对齐",
+    "summary": "比较两份目录里的候选实体，决定合并、不关联或交由人工。",
+    "limitations": "官方示例与作者结果；本仓库未调用 API 复现。"
+  },
+  "official-classifying-rag-passages": {
+    "title": "RAG 段落分类",
+    "summary": "在检索与生成之间检查相关性、冲突和指令注入。",
+    "limitations": "官方示例与作者结果；本仓库未调用 API 复现。"
+  },
+  "official-citation-check": {
+    "title": "引用核对",
+    "summary": "先确定引用原句存在，再判断上下文是否支持声明。",
+    "limitations": "官方示例与作者结果；本仓库未调用 API 复现。"
+  },
+  "official-llm-guardrails": {
+    "title": "LLM 输入输出检查",
+    "summary": "以多个风险问题和严重度评分决定通过、审核或拦截。",
+    "limitations": "官方示例与作者结果；本仓库未调用 API 复现。"
+  },
+  "official-sde-cascade": {
+    "title": "结构化抽取级联",
+    "summary": "小模型先抽取，Jev 验证字段，必要时升级推理模型。",
+    "limitations": "官方示例与作者结果；本仓库未调用 API 复现。"
+  },
+  "official-date-extraction-cookbook": {
+    "title": "日期抽取",
+    "summary": "选择文中日期的组成部分，由代码解析相对日期并验证。",
+    "limitations": "官方示例与作者结果；本仓库未调用 API 复现。"
+  },
+  "official-pre-parsed-value-extraction-cookbook": {
+    "title": "候选值抽取",
+    "summary": "正则先找到邮箱、电话和金额候选，Jev 选择所需片段。",
+    "limitations": "官方示例与作者结果；本仓库未调用 API 复现。"
+  },
+  "official-hierarchical-classification": {
+    "title": "分层分类",
+    "summary": "在专利、商品等层级标签中使用概率驱动的搜索。",
+    "limitations": "官方示例与作者结果；本仓库未调用 API 复现。"
+  },
+  "official-autoresearch-feature-discovery": {
+    "title": "自动发现文本特征",
+    "summary": "让 LLM 提问题，Jev 转成数值特征，再训练 CatBoost 并迭代。",
+    "limitations": "官方示例与作者结果；本仓库未调用 API 复现。"
+  },
+  "official-classification-using-confidence": {
+    "title": "带退让策略的分类",
+    "summary": "给年报选择行业类别，低置信度时退回更宽泛类别。",
+    "limitations": "官方示例与作者结果；本仓库未调用 API 复现。"
+  },
+  "rtrvr-browser-benchmark": {
+    "title": "Retriever AI：浏览器动作选择实测",
+    "summary": "开发团队记录如何用 Jev 选择浏览器动作、用 GLM 处理计划和生成。",
+    "limitations": "每个任务与配置仅一次运行，页面与计划也有差异；本仓库未复现。"
+  }
+}
